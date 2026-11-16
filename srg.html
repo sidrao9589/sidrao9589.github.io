@@ -9,16 +9,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="case-page rf-page">
-<a class="skip" href="#contribution">Skip to project details</a>
-<header>
-  <a class="brand" href="index.html" aria-label="Siddanth Rao home">SR<span class="brand-dot">.</span></a>
-  <nav aria-label="Main navigation"><a href="index.html#work">All projects</a><a href="#build">The build</a><a href="index.html#contact" class="nav-contact">Get in touch →</a></nav>
-</header>
-<main>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="index.html">Siddanth Rao</a><nav aria-label="Main navigation"><a href="index.html#work">Projects</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a></nav></header>
+<main id="main">
   <section class="case-intro">
     <a class="back-link" href="index.html#srg">← Back to selected work</a>
-    <div class="eyebrow">04 / RF & SPACE SYSTEMS</div>
-    <h1>Model. Build.<br>Take it outside<span>.</span></h1>
+    <div class="eyebrow">SRG / RF SUBTEAM</div>
+    <h1>RF antennas & ground station</h1>
     <p class="case-lead">Antenna modeling, prototype assembly, and ground-station hardware concepts with SRG’s RF subteam.</p>
     <dl class="case-meta">
       <div><dt>ORGANIZATION</dt><dd>SRG · Iowa State University</dd></div>
@@ -29,19 +26,19 @@
   </section>
 
   <section id="contribution" class="case-narrative rf-intro">
-    <div><div class="eyebrow">MY INVOLVEMENT</div><h2>Bringing the RF<br>work into hardware.</h2></div>
-    <div><p>I work with SRG’s RF subteam on antenna modeling, prototype builds, and ground-station integration concepts.</p><p>Our work includes MATLAB antenna studies, an initial quadrifilar helix (QFH) mockup, a dipole antenna build, and a draft adapter to connect antenna hardware to the ground station. The photos below follow the work from concepts and models to assembly and team testing.</p></div>
+    <div><h2>My contributions</h2></div>
+    <div><p>I work with SRG’s RF subteam on antenna modeling, prototype builds, and ground-station integration concepts.</p><p>Our work includes MATLAB antenna studies, an initial quadrifilar helix (QFH) mockup, a dipole antenna build, and a draft adapter to connect antenna hardware to the ground station.</p></div>
   </section>
 
   <section id="adapter" class="rf-section rf-tinted">
-    <div class="section-heading"><div><div class="eyebrow">01 / GROUND-STATION INTERFACE</div><h2>A mount built around assembly.</h2></div><p>Adapter concept · In development</p></div>
+    <div class="section-heading"><div><h2>Ground-station adapter concept</h2></div><p>Adapter concept · In development</p></div>
     <p class="rf-section-lead">We are exploring a split, 3D-printed adapter that supports the antenna elements on the ground-station mast. The concept separates into two halves for access to the soldered connections, with an internal path for wiring to the software-defined radio (SDR).</p>
     <figure class="rf-figure rf-sketch"><a href="assets/srg-adapter-concept.webp" target="_blank" rel="noopener" aria-label="Open full ground-station adapter concept sketch"><img src="assets/srg-adapter-concept.webp" alt="Hand-drawn adapter concept with two bolted halves, antenna openings, an optional cap, and wiring through the mast" loading="lazy" width="1600" height="1032"></a><figcaption><b>Draft / Adapter concept</b><span>Team concept sketch exploring antenna retention, access for soldering, and cable routing. These are design ideas under development.</span></figcaption></figure>
     <div class="rf-decisions"><div><h3>Access for assembly</h3><p>A split housing would allow the two sides to separate while connections are made.</p></div><div><h3>Antenna retention</h3><p>Bolt and clamping options are being considered to locate the antenna elements.</p></div><div><h3>Cable routing</h3><p>The proposed wiring path runs down through the mast toward the SDR.</p></div></div>
   </section>
 
   <section id="modeling" class="rf-section">
-    <div class="section-heading"><div><div class="eyebrow">02 / ANTENNA MODELING</div><h2>Exploring the QFH geometry.</h2></div><p>MATLAB studies · Initial CAD mockup</p></div>
+    <div class="section-heading"><div><h2>QFH antenna modeling</h2></div><p>MATLAB studies · Initial CAD mockup</p></div>
     <p class="rf-section-lead">The subteam’s quadrifilar helix studies combine a MATLAB antenna model with three-dimensional gain and polar-pattern views. An initial CAD mockup explores the physical geometry alongside the modeling work.</p>
     <div class="rf-model-grid">
       <figure class="rf-figure"><a class="rf-image-panel" href="assets/srg-qfh-model.webp" target="_blank" rel="noopener"><img src="assets/srg-qfh-model.webp" alt="MATLAB helixMultifilar antenna geometry with axes in millimeters" loading="lazy" width="802" height="534"></a><figcaption><b>Model / MATLAB geometry</b><span>Helical antenna geometry used in the subteam’s exploratory modeling.</span></figcaption></figure>
@@ -52,12 +49,12 @@
     <p class="rf-note">The plots show exploratory simulations at the displayed 2 GHz setting. They are separate from the dipole build below and do not represent measured antenna performance.</p>
     <div class="rf-mockup">
       <figure class="rf-figure"><a class="rf-image-panel" href="assets/srg-qfh-cad-mockup.webp" target="_blank" rel="noopener"><img src="assets/srg-qfh-cad-mockup.webp" alt="Initial QFH CAD mockup with helical paths around a central support" loading="lazy" width="346" height="618"></a><figcaption><b>Concept / Initial QFH mockup</b><span>CAD view exploring the antenna’s physical form and support structure.</span></figcaption></figure>
-      <div><div class="eyebrow">FROM MODEL TO MOCKUP</div><h3>Making the geometry tangible.</h3><p>The initial QFH mockup provides a physical-design reference alongside the MATLAB model. It captures an early configuration for the subteam to develop further.</p></div>
+      <div><h3>Initial QFH mockup</h3><p>The CAD mockup shows an early antenna geometry and its support structure. It is an initial configuration for further development.</p></div>
     </div>
   </section>
 
   <section id="build" class="rf-section rf-tinted">
-    <div class="section-heading"><div><div class="eyebrow">03 / DIPOLE PROTOTYPE</div><h2>From the bench to test day.</h2></div><p>Team build · Assembly & testing</p></div>
+    <div class="section-heading"><div><h2>Dipole build and testing</h2></div><p>Team build · Assembly & testing</p></div>
     <p class="rf-section-lead">The dipole work moves from a PVC support structure and antenna assembly to the completed prototype and team testing. These images document the build and test setup.</p>
     <div class="rf-build-grid">
       <figure class="rf-figure"><a class="rf-photo-panel" href="assets/srg-dipole-build.webp" target="_blank" rel="noopener"><img src="assets/srg-dipole-build.webp" alt="Dipole support during construction, with a PVC mast and freestanding base" loading="lazy" width="434" height="594"></a><figcaption><b>Build / Support & assembly</b><span>The PVC mast and base during the dipole build.</span></figcaption></figure>
@@ -67,8 +64,8 @@
     </div>
   </section>
 
-  <section class="case-outro"><div><div class="eyebrow">EXPLORE MORE</div><h2>See the rest of my work.</h2></div><a class="button" href="index.html#work">Back to portfolio <span>→</span></a></section>
+  <div class="project-end"><a class="text-link" href="index.html#work">← All projects</a></div>
 </main>
-<footer><span>© 2026 Siddanth Rao</span><span>AEROSPACE ENGINEERING / IOWA STATE</span><a href="index.html#contact">Get in touch →</a></footer>
+<footer><span>© 2026 Siddanth Rao</span><a href="index.html#work">Projects</a><a href="mailto:sidrao9589@gmail.com">Email</a><a href="https://www.linkedin.com/in/siddanth-rao-95852024b" target="_blank" rel="noopener">LinkedIn</a></footer>
 </body>
 </html>
